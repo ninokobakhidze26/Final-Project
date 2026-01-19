@@ -50,3 +50,4 @@ Cypress.Commands.add('addProductToCart', (productName) => {
   cy.contains(productName).click();
   cy.get('button.add-to-cart').click();
 });
+  

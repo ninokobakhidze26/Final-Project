@@ -12,4 +12,4 @@ cy.get('input[name="reset_email"]').type(user.validUser.email)
 cy.get('button.form-button').contains('აღდგენა').click()
 cy.contains('Whoops, something went wrong on our servers.').should('be.visible')
 
-        }) }) })
+        }) }) })  
