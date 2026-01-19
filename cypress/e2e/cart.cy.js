@@ -12,4 +12,4 @@ cy.fixture("login").then((user) => {
     cy.get('.add-pro').first().click({ force: true });
     cy.visit('https://testzootopia.loremipsum.ge/ka/cart');
     cy.contains('EHOP CAGE HAMSTER 50 TRI PINK').should('be.visible');
-        }) }) })
+        }) }) })  

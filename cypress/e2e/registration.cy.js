@@ -19,7 +19,7 @@ cy.get('.regsub').click()
 cy.contains('Sorry, the page you are looking for could not be found.').should('be.visible')
 cy.visit('https://testzootopia.loremipsum.ge/ka')
 cy.contains('პროფილი').should('be.visible')
-
+  
 
   })
  })

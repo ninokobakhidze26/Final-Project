@@ -9,4 +9,4 @@ cy.fixture("login").then((user) => {
     cy.get('input[name="login_password"]').type(user.validUser.password)
     cy.get('button.form-button').contains('ავტორიზაცია').click()
     cy.contains('პროფილი').should('be.visible')
-    })})})
+    })})})  
